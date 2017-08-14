@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "508542769792",
+    "firebase_url": "https://help-us-4befb.firebaseio.com",
+    "project_id": "help-us-4befb",
+    "storage_bucket": "help-us-4befb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508542769792:android:5588b5371ec4f2c3",
+        "android_client_info": {
+          "package_name": "com.wordpress.yassinemalti.helpus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508542769792-uk8vmjf1cekiqhs2i7shijrcp9nj6lu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQO89BTlLANAXeEaJafe4sT-xKIjxhXgw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
