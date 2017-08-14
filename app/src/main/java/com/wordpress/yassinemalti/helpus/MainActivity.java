@@ -18,9 +18,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this, PagerActivity.class));
         }
 
-        getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit()
-                .putBoolean("isFirstRun", true).commit();
-
     }
 
 }

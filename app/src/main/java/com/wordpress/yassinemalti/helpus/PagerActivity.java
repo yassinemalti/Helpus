@@ -161,7 +161,6 @@ public class PagerActivity extends AppCompatActivity {
         mSkipBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 finish();
             }
         });
@@ -171,7 +170,8 @@ public class PagerActivity extends AppCompatActivity {
             public void onClick(View v) {
                 finish();
                 //  update 1st time pref
-                //Utils.saveSharedSetting(PagerActivity.this, MainActivity.PREF_USER_FIRST_TIME, "false");
+                getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit()
+                        .putBoolean("isFirstRun", true).commit();
 
             }
         });
@@ -184,29 +184,6 @@ public class PagerActivity extends AppCompatActivity {
                     i == position ? R.drawable.indicator_selected : R.drawable.indicator_unselected
             );
         }
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_pager, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 
     /**
@@ -256,7 +233,6 @@ public class PagerActivity extends AppCompatActivity {
 
             return rootView;
         }
-
 
     }
 
