@@ -171,7 +171,7 @@ public class PagerActivity extends AppCompatActivity {
                 finish();
                 //  update 1st time pref
                 getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit()
-                        .putBoolean("isFirstRun", true).commit();
+                        .putBoolean("isFirstRun", false).commit();
 
             }
         });
