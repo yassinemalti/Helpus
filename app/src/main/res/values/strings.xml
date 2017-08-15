@@ -1,15 +1,15 @@
 <resources>
 
-    <string name="app_name">Help us!</string>
+    <string name="app_name">Help us! Donate</string>
 
-    <string name="title_one">Title one</string>
-    <string name="title_two">Title two</string>
-    <string name="title_three">Title three</string>
-    <string name="title_main">Title main</string>
+    <string name="title_one">Community</string>
+    <string name="title_two">Policy</string>
+    <string name="title_three">Priority</string>
+    <string name="title_main">Welcome</string>
 
-    <string name="descritpion_one">Description one</string>
-    <string name="descritpion_two">Description two</string>
-    <string name="descritpion_three">Description three</string>
-    <string name="descritpion_main">Description main</string>
+    <string name="descritpion_one">Welcome to our modest community of benefactors, we thank you for trusting us.</string>
+    <string name="descritpion_two">Our policy rests on transparency and good actions to improve the lives of poor people.</string>
+    <string name="descritpion_three">Our priority is to care for the most disadvantaged people to bring good conditions.</string>
+    <string name="descritpion_main">Welcome and thank you again, do not hesitate to share our cause and make new donations.</string>
 
 </resources>
